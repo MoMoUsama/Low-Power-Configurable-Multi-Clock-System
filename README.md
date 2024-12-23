@@ -2,6 +2,9 @@
 ### Project Overview
 This project involves the complete RTL to GDS implementation of a Low Power Configurable Multi Clock Digital System, designed to perform various operations by receiving commands via a UART receiver. The system processes the commands to execute tasks such as reading/writing to a register file or performing computations using an Arithmetic Logic Unit (ALU). Results are sent back through a UART transmitter, utilizing an asynchronous FIFO to handle different clock rates and prevent data loss.
 
+![SYS](https://github.com/user-attachments/assets/79dcbcb0-cae3-4b1b-9d20-b5187b94a56b)
+
+
 ### Features
 **Multi-Clock System**: Supports multiple clock domains with mechanisms to avoid data corruption using synchronizers and asynchronous FIFO.\
 **Low Power Design**: Incorporates clock gating and optimized timing paths to minimize power consumption.\
