@@ -1,0 +1,30 @@
+****************************************************
+
+Info:  Net r:/WORK/UART_RX_DW8/Parity_Chk_En_TOP is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[7] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[6] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[5] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[4] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[3] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[2] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[1] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/remainder[0] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW_div_uns_0/divide_by_0 is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW01_sub_0/CO is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW01_add_0/CO is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[15] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[14] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[13] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[12] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[11] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[10] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[9] is undriven.
+Info:  Net i:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8_DW02_mult_0/PRODUCT[8] is undriven.
+Info:  guide_uniquify 92 (Line: 678)  Cannot find object "TX_DIVIDER/U12" in design 'TOP'.
+Info:  SVF Operation 92 (Line: 678) - uniquify.  Status: rejected
+Info:  guide_uniquify 92 (Line: 678)  Cannot find object "RX_DIVIDER/U12" in design 'TOP'.
+Info:  guide_uniquify 100 (Line: 721)  Cannot find object "alu/dp_cluster_0/mult_49" in design 'TOP'.
+Info:  Pre-verification of r:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8/div_52 SUCCEEDED.
+Info:  Pre-verification of r:/WORK/ALU_OPER_WIDTH8_OUT_WIDTH8/mult_49 SUCCEEDED.
+****************************************************
+
