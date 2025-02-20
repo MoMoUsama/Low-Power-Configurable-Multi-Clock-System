@@ -1,0 +1,23 @@
+vlib work
+vlog -f sourcefile.txt
+vsim -voptargs=+accs work.SYSTEM_TB
+add wave *
+add wave -position end  sim:/SYSTEM_TB/DUT/sys_cntrl/cur_state
+add wave -position end  sim:/SYSTEM_TB/DUT/sys_cntrl/nxt_state
+add wave -position end  sim:/SYSTEM_TB/DUT/uart/uart_tx/FSM_TOP/cur_state
+add wave -position end  sim:/SYSTEM_TB/DUT/uart/uart_tx/FSM_TOP/nxt_state
+add wave -position end  sim:/SYSTEM_TB/DUT/uart/uart_rx/FSM_TOP/curr_state
+add wave -position end  sim:/SYSTEM_TB/DUT/uart/uart_rx/FSM_TOP/nxt_state
+add wave -position end  sim:/SYSTEM_TB/DUT/RX_clk
+add wave -position end  sim:/SYSTEM_TB/DUT/TX_clk
+add wave -position end  sim:/SYSTEM_TB/DUT/DATA_SYNC_OUT
+add wave -position end  sim:/SYSTEM_TB/DUT/DATA_SYNC_OUT_VALID
+add wave -position end  sim:/SYSTEM_TB/DUT/wr_data_fifo
+add wave -position end  sim:/SYSTEM_TB/DUT/wr_incr
+add wave -position end  sim:/SYSTEM_TB/DUT/fifo_full
+add wave -position end  sim:/SYSTEM_TB/DUT/fifo_empty
+add wave -position end  sim:/SYSTEM_TB/DUT/rd_incr
+add wave -position end  sim:/SYSTEM_TB/DUT/BUSY
+add wave -position end  sim:/SYSTEM_TB/DUT/fifo/mem/MEM
+add wave -position end  sim:/SYSTEM_TB/DUT/rf/mem
+run -all 
